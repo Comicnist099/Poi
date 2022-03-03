@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "190706217050",
+    "project_id": "poichat-d3d34",
+    "storage_bucket": "poichat-d3d34.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190706217050:android:2045ce0553c01af5a26863",
+        "android_client_info": {
+          "package_name": "com.example.poi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190706217050-q8fqtdn4l3m58saleovfcdrkdtd9ltui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAegPw99sefGn4yD0BKehZOqiXtN3Y6OSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190706217050-q8fqtdn4l3m58saleovfcdrkdtd9ltui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

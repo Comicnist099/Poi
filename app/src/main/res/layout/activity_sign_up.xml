@@ -1,9 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SignUp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="158dp"
+        android:layout_height="158dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/app_logo"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="18dp"
+        android:paddingLeft="18dp"
+        android:background="@drawable/edt_background"
+        android:layout_marginRight="28dp"
+        android:hint="Nombre" />
+
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/edt_name"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="28dp"
+        android:background="@drawable/edt_background"
+        android:hint="Email"
+        android:paddingLeft="18dp" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/edt_email"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="28dp"
+        android:background="@drawable/edt_background"
+        android:hint="Password"
+        android:paddingLeft="18dp" />
+
+    <Button
+        android:id="@+id/bntLogin"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/btn_background"
+        android:text="Aceptar"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:id="@+id/bntSignUp"
+
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bntLogin"
+        android:text="Registrarte"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_background"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"/>
+
+
+</RelativeLayout>
