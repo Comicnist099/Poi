@@ -65,18 +65,4 @@
         android:textSize="20dp" />
 
 
-    <Button
-        android:id="@+id/bntSignUp"
-
-        android:layout_width="158dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/bntLogin"
-        android:text="Registrarte"
-        android:textSize="20dp"
-        android:textColor="@color/white"
-        android:background="@drawable/btn_background"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="18dp"/>
-
-
 </RelativeLayout>
