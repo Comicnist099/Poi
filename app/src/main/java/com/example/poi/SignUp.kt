@@ -58,7 +58,7 @@ class SignUp : AppCompatActivity() {
                     startActivity(intent)
 
                 } else {
-                    Toast.makeText(this@SignUp, "Some error occurred", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@SignUp, "Ocurrio un error", Toast.LENGTH_SHORT).show()
 
                 }
             }
