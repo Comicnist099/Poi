@@ -57,6 +57,7 @@ class Login : AppCompatActivity() {
             .addOnCompleteListener(this) { task ->
                 if (task.isSuccessful) {
                     val intent=Intent(this@Login, MainActivity::class.java)
+                    finish()
                     startActivity(intent)
                 } else {
                     Toast.makeText(this@Login, "El usuario no existe", Toast.LENGTH_SHORT).show()

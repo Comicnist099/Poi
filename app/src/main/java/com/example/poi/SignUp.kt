@@ -55,6 +55,7 @@ class SignUp : AppCompatActivity() {
 
                     addUsertoDatabase(name,email,mAuth.currentUser?.uid!!)
                     val intent=Intent(this@SignUp, MainActivity::class.java)
+                    finish()
                     startActivity(intent)
 
                 } else {
