@@ -3,6 +3,7 @@ package com.example.poi
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.Layout
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
@@ -11,6 +12,10 @@ import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 
 class SignUp : AppCompatActivity() {
+
+
+
+
 
     private lateinit var edtName: EditText
     private lateinit var edtEmail: EditText
@@ -24,7 +29,11 @@ class SignUp : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
+
         setContentView(R.layout.activity_sign_up)
+
+
+
 
         supportActionBar?.hide()
 

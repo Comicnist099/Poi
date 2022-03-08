@@ -11,4 +11,9 @@ class Message {
         this.message=message
         this.senderId=senderId
     }
+
+    constructor(message:String?){
+
+        this.message=message
+    }
 }
